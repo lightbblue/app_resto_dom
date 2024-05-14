@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 10%!important;
+    & header{
+        position: relative;
+        top: 0;
+        height: 10%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+        color: black;
+        font-weight: bolder;
+        font-size: 2.3vh;
+        background-color: white;
+        & a{
+            position: absolute;
+            left: 5%;
+            color: black;
+        }
+    }
+    & main{
+        height: 80%;
+        width: 100%;
+        & section:first-of-type{
+            width: 100%;
+            height: 12.5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            color: rgb(168, 168, 168);
+            font-weight: 500;
+            & div{
+                height: 50%;
+                width: 12.5%;
+                position: absolute;
+                border-bottom: 3px solid rgb(36, 233, 95);
+            }
+        }
+        & .container{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            overflow-y: scroll;
+            padding-bottom: 25%;
+            & a{
+                color: black;
+            }
+            & .card{
+                width: 100%;
+                height: 15vh;
+                display: flex;
+                & .fotocontainer{
+                    height: 100%;
+                    width: 40%;
+                    position: relative;
+                    & .precio{
+                        height: 25%;
+                        width: 70px;
+                        background-color: rgb(39, 250, 152);
+                        border-radius: 12px 2px 12px 2px;
+                        display: grid;
+                        place-items: center;
+                        color: white;
+                        font-weight: bolder;
+                        position: absolute;
+                        right: 25px;
+                        bottom: 25px;
+                    }
+                    & .foto{
+                        height: 100%;
+                        width: 100%;
+                        background-position: center;
+                        background-size: cover;
+                        object-fit: contain;
+                    }
+                }
+                & .info{
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    width: 60%;
+                    justify-content: center;
+                    gap: 15px;
+                    & .title{
+                        font-size: 16pt;
+                        font-weight: 500;
+                    }
+                    & .desc{
+                        color: rgb(175, 175, 175);
+                    }
+                }
+            }
+        }
+    }
+    & nav{
+        position: fixed;
+        bottom: 0px;
+        height: 10%;
+        width: 100%;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        & .boton{
+            flex: 0 0 33.33%;
+            background-color: transparent;
+            border: none;
+            color: rgb(180, 180, 180);
+            font-weight: bolder;
+            display: grid;
+            place-items: center;
+        }
+        & .selected{
+            border-top: 2.5px solid rgb(36, 233, 95);
+            color: black;
+        }
+        & button:hover{
+            cursor: pointer;
+        }
+    }
+}
+@media screen and (orientation=landscape){
+     .container{
+        display: flex;
+        /* width: 80%!important;  */
+        flex-direction: row!important;
+        flex-wrap: wrap!important;
+        padding-bottom: 10%!important;
+        gap: 10px;
+        .card{
+            height: 100px;
+            flex: 0 0 calc(50% - 5px)!important;
+        }           
+    }
+}

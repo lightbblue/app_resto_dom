@@ -13,7 +13,7 @@
         <div class="gradient"></div>
         <div class="producto">
             <div class="nombre">Oven Roasted Chicken Chopped Salad</div>
-            <div class="precio">$6.99</div>
+            <div class="precio"></div>
         </div>
     </header>
     <main>
@@ -22,9 +22,20 @@
         </div>
         <input type="text" placeholder="Add a note (extra sauce, no onions, etc.)">
         <section>
-            <div class="cantidad">- 2 +</div>
-            <div class="agregar">ADD TO CART</div>
+            <div class="flex">
+                <div class="flex">
+                    <button id="restar" class="icons botonCarrito" onclick="restar()">remove</button>
+                    <p class="botonCarrito" id="cantidad">0</p>
+                    <button id="sumar" class="icons botonCarrito" onclick="sumar()">add</button>
+                </div>
+    
+                <button class="btnAgregar"><i class="iconos"></i>ADD TO CART</button>
+            </div>
+            <span id="subtotal"></span>
+            <!-- <div class="cantidad">- 2 +</div>
+            <div class="agregar">ADD TO CART</div> -->
         </section>
     </main>
+    <script src="js/acciones.js"></script>
 </body>
 </html>

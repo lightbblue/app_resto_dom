@@ -1,0 +1,22 @@
+[
+    {
+      "truck_id": "66",
+      "name": "King of the Wings",
+      "category": "American",
+      "bio": "International award winning Food truck. Australia's first American style chicken wing food truck!! \r\nOffering 5 unique flavours of succulent, flavoursome, crispy wings!! Taste the hype!\r\nRepresented Australia in New York in 2016 for the Worlds Biggest Buffalo Wing Festival, current holder of Best Food Truck Brisbane (Eat Drink Awards 2018)... \r\nThis truck is a must try for wing lovers!!",
+      "avatar": {
+        "src": "https://www.bnefoodtrucks.com.au/sites/foodtrucks/files/styles/avatarlarge/public/images/King%20of%20the%20Wings/king_of_the_wings_logo_0.jpg?itok=mvKcHHD6",
+        "alt": "",
+        "title": ""
+      },
+      "cover_photo": {
+        "src": "https://www.bnefoodtrucks.com.au/sites/foodtrucks/files/styles/header/public/images/King%20of%20the%20Wings/image.jpeg?itok=GDIv3sIa",
+        "alt": "",
+        "title": ""
+      },
+      "website": "",
+      "facebook_url": "https://www.facebook.com/kingofthewingsbrisbane/",
+      "instagram_handle": "wingstigram ",
+      "twitter_handle": "kingofthewings1"
+    }
+]

@@ -17,7 +17,11 @@
       "website": "",
       "facebook_url": "https://www.facebook.com/kingofthewingsbrisbane/",
       "instagram_handle": "wingstigram ",
-      "twitter_handle": "kingofthewings1"
+      "twitter_handle": "kingofthewings1",
+      "direccion": "La Habana 50, Tortuguitas",
+      "horario": "9.00 - 15.00hs",
+      "puntuacion": "4",
+      "rango": "3"
     },
     {
       "truck_id": "71",
@@ -53,7 +57,11 @@
       "website": "http://www.gourmetfoodtrucks.com.au",
       "facebook_url": "",
       "instagram_handle": "",
-      "twitter_handle": ""
+      "twitter_handle": "",
+      "direccion": "Sarratea 583, Villa de Mayo",
+      "horario": "12.00 - 23.00hs",
+      "puntuacion": "3",
+      "rango": "2"
     },
     {
       "truck_id": "96",
@@ -73,7 +81,11 @@
       "website": "http://www.rollingstonepizza.com.au/",
       "facebook_url": "https://www.facebook.com/rollingstonemobilewoodfiredpizza/",
       "instagram_handle": "rolling_stone_pizza",
-      "twitter_handle": "RSPizzaQLD"
+      "twitter_handle": "RSPizzaQLD",
+      "direccion": "Colonia Carolla, Córdoba",
+      "horario": "11.00 - 02.00hs",
+      "puntuacion": "4",
+      "rango": "3"
     },
     {
       "truck_id": "106",
@@ -93,7 +105,11 @@
       "website": "",
       "facebook_url": "https://www.facebook.com/catchandkissseafoodbne/",
       "instagram_handle": "catch_and_kiss",
-      "twitter_handle": ""
+      "twitter_handle": "",
+      "direccion": "Av. Santa Fé 3344, Palermo",
+      "horario": "11.00 - 02.00hs",
+      "puntuacion": "3",
+      "rango": "4"
     },
     {
       "truck_id": "116",
@@ -113,7 +129,11 @@
       "website": "http://www.rubyicecream.com.au/",
       "facebook_url": "https://www.facebook.com/rubyicecreamvan/",
       "instagram_handle": "rubyicecreamvan",
-      "twitter_handle": "rubyicecreamvan"
+      "twitter_handle": "rubyicecreamvan",
+      "direccion": "Av. Marquez 3344, San Isidro",
+      "horario": "10.00 - 22.00hs",
+      "puntuacion": "2",
+      "rango": "5"
     },
     {
       "truck_id": "121",
@@ -133,7 +153,11 @@
       "website": "http://www.satehouse.com.au/",
       "facebook_url": "https://www.facebook.com/satehouse/",
       "instagram_handle": "satehouse",
-      "twitter_handle": ""
+      "twitter_handle": "",
+      "direccion": "Av. Costanera S/N, Villurca",
+      "horario": "10.00 - 22.00hs",
+      "puntuacion": "5",
+      "rango": "3"
     },
     {
       "truck_id": "131",

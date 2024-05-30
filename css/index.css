@@ -165,21 +165,21 @@ body {
             color: white;
             height: 100%;
             width: 45%;
-            background-color: aquamarine;
             border-radius: 8px 0 0 8px;
             position: relative;
-            background-image: url(../img/lugar.webp);
             background-size: cover;
             background-position: center;
             z-index: 0;
             & .img-cartita{
                 height: 100%;
                 width: 100%;
+                border-radius: 8px 0 0 8px;
             }
             & .img-cartita img{
                 height: 100%;
                 width: 100%;
                 object-fit: cover;
+                border-radius: 8px 0 0 8px;
             }
             h5{
                 position: absolute;

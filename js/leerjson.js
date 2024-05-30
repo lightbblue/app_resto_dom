@@ -9,7 +9,6 @@ fetch("json/restaurantes.json")
         <a href="./restaurante.html" class="card">
             <div class="card-img">
                 <div class="img-cartita"><img src="${e.avatar.src}"></div>
-                <div class="portadita2"></div>
                 <h5>3 km</h5>
             </div>
             <div class="card-info">

@@ -130,6 +130,11 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 10px;
+        b{
+            display: flex;
+            text-align: center;
+        }
     }
 }
 

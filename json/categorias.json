@@ -1,0 +1,12 @@
+[
+    {"icon": "fastfood", "desc": "Fast Food"},
+    {"icon": "restaurant", "desc": "Italian"},
+    {"icon": "local_pizza", "desc": "Pizza"},
+    {"icon": "local_dining", "desc": "Fine Dining"},
+    {"icon": "ramen_dining", "desc": "Japanese"},
+    {"icon": "set_meal", "desc": "Sushi"},
+    {"icon": "local_cafe", "desc": "Café"},
+    {"icon": "local_bar", "desc": "Bar"},
+    {"icon": "local_mall", "desc": "Food Court"},
+    {"icon": "bubble_chart", "desc": "Fusion Cuisine"}
+]

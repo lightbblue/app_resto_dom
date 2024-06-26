@@ -92,8 +92,8 @@ body{
                         font-size: 16pt;
                     }
                     & .foto{
-                        height: 130px;
-                        width: 130px;
+                        height: 6.5rem;
+                        width: 6.5rem;
                         border-radius: 100%;
                     }
                 }

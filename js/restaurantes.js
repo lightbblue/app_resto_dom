@@ -1,4 +1,7 @@
 let container2 = document.querySelector(".productos");
+function guardar(id) {
+    localStorage.setItem("nombre",id)
+}
 fetch("json/restaurantes.json")
 .then(response => {
     return response.json();
@@ -6,7 +9,7 @@ fetch("json/restaurantes.json")
 .then(data =>{
     data.forEach(e => {
         container2.innerHTML+=/*html*/`
-        <a href="./restaurante.html" class="card">
+        <a href="./restaurante.html" id="${e.name}"class="card" onclick="guardar(id)">
             <div class="card-img">
                 <div class="img-cartita"><img src="${e.avatar.src}"></div>
                 <h5>${e.distance}</h5>

@@ -17,9 +17,24 @@
         </div>
     </header>
     <main>
-        
+        <div class="texto">
+            esta anashe la verdad, muy buenardo
+        </div>
+        <input type="text" placeholder="Add a note (extra sauce, no onions, etc.)">
+        <section>
+            <div class="flex">
+                <div class="flex">
+                    <button id="restar" class="icons botonCarrito" onclick="restar()">remove</button>
+                    <p class="botonCarrito" id="cantidad">0</p>
+                    <button id="sumar" class="icons botonCarrito" onclick="sumar()">add</button>
+                </div>
+    
+                <button class="btnAgregar"><i class="iconos"></i>ADD TO CART</button>
+            </div>
+            <span id="subtotal"></span>
+        </section>
     </main>
-    <script src="js/acciones.js"></script>
+    
     <script src="js/platillo.js"></script>
 </body>
 </html>
